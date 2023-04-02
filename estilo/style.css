@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    background: url(/img/capa.jpg);
+    background-size: 100%;
+    height: 90vh;
+}
+
+.div1{
+    display: flex;
+    position: fixed;
+    background-color: #212121;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.div1>nav>img{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.div1>nav>p{
+    color: #fff;
+    display: inline;
+    padding: 20px;
+    font-size: 1.2em;
+    position: relative;
+    top: -15px;
+    
+}
+
+.div1>nav>a:nth-child(3){
+    position: relative;
+    top: -14px;
+    margin-left: 750px;
+    padding-right: 7px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.571);
+}
+.div1>nav>a:nth-child(4){
+    position: relative;
+    top: -14px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.571);
+}
+
+.div1>nav>a:nth-child(5){
+    position: relative;
+    top: -14px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.571);
+}
+
+.div1>nav>i{
+    position: relative;
+    top: -14px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.div2>h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 140px;
+    font-size: 5.5em;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;;
+}
+.sec1{
+    background-color: #738e57;
+}
+
+.sec1>h2{
+    font-weight: normal;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.sec1>p{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 2em;
+}
+
+.d-alecrim{
+    padding-right: 30px;
+}
+
+.d-alecrim>p:nth-child(1){
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.d-alecrim>p{
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.d-guaco{
+    padding-right: 30px;
+}
+
+.d-guaco>p:nth-child(1){
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.d-guaco>p{
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.d-st-maria>p:nth-child(1){
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.d-st-maria>p{
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.alecrim{
+    width: 350px;
+
+}
+
+.guaco{
+    width: 350px;
+}
+
+.st-maria{
+    width: 350px;
+}
+
+.sec2{
+    background-color: #738e57;
+    display: flex;
+    padding-left: 125px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.sec3{
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f2f2f2;
+    font-size: 1.1em;
+}
+
+.sec3>h2{
+    font-size: 1em;
+    color: #38761d;
+}
+
+.sec3 li{
+    color: #38761d;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+
+.sec4{
+    background-color: #f2f2f2;
+}
+.sec4>img{
+    display: block;
+    margin: 0 auto;
+    width: 750px;
+    padding-top: 70px;
+}
+
+.sec4>p{
+    font-size: 0.7em;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.sec5{
+    background-color: #738e57;
+    
+}
+
+.sec5>h2{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.sec5-1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.babosa{
+    width: 270px;
+}
+
+.erva-doce{
+    width: 270px;
+}
+
+.tilia{
+    width: 270px;
+}
+
+.roma{
+    width: 270px;
+}

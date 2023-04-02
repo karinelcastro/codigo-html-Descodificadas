@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    background: url(/img/capa.jpg);
+    background-size: 100%;
+    height: 90vh;
+}
+
+.div1{
+    display: flex;
+    position: fixed;
+    background-color: #212121;
+    padding-right: 33px;
+    padding-bottom: 10px;
+}
+
+.div1>nav>img{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.div1>nav>p{
+    color: #fff;
+    display: inline;
+    padding: 20px;
+    font-size: 1.2em;
+    position: relative;
+    top: -15px;
+    
+}
+
+.div1>nav>a:nth-child(3){
+    position: relative;
+    top: -14px;
+    margin-left: 675px;
+    padding-right: 7px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.571);
+}
+.div1>nav>a:nth-child(4){
+    position: relative;
+    top: -14px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.571);
+}
+
+.div1>nav>a:nth-child(5){
+    position: relative;
+    top: -14px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.571);
+}
+
+.div1>nav>i{
+    position: relative;
+    top: -14px;
+    color: #fff;
+    padding-left: 90px;
+}
+
+.div2{
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: large;
+    
+}
